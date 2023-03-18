@@ -8,20 +8,8 @@ requirement:
 
 ------------------------------------------------------------------------------
 
-testing funtions:
-
-function 1: button has correct initial state and response normal when clicked:
-        the element is a button
-        text is Change to blue
-        after click:
-            background to be blue
-            button text to change to red
-
-initial condition wiht unchecked box and enabled button: 
-        check that the button starts out enabled
-        check that the checkbox starts out unchecked
-
-
+knowledge:
+    add label thro id within input tag
 
 ------------------------------------------------------------------------------
 knowledge:
