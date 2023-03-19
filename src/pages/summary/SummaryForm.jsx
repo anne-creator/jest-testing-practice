@@ -28,8 +28,8 @@ export default function SummaryForm() {
         <Form.Check
           type="checkbox"
           checked={tcChecked}
-          onChange = {(e) -> setTcCheckt(e.target.checked)}
-          label={checkedBoxLabel} //displayed next to the checkbox
+          onChange={(e) => setTcChecked(!tcChecked)}
+          label={checkBoxLabel} //displayed next to the checkbox
         />
       </Form.Group>
       <Button variant="primary" type="submit" disabled={!tcChecked}>
